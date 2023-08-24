@@ -1,0 +1,137 @@
+.good {
+  outline: none;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  height: 37px;
+}
+
+.goes {
+  height: 20%;
+}
+
+.btn-box {
+  border: 1px solid #c5c5c5dd;
+  padding: 2px 17px;
+  background: #fff;
+}
+
+  .loading {
+    background-image: url(./img/Spinner-1s-200px.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .Good {
+    background-image: url(img/Spinner-1s-200px.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+/* .loading {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+  }
+  .loading:after {
+    content: " ";
+    display: block;
+    width: 20px;
+    height:20px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */
+/* 
+  .loading-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  } */
+
+.DataLoading {
+  /* position: absolute; */
+  /* z-index: 23; */
+  /* top: 192px; */
+}
+
+.loading-overlay {
+}
+
+/* Loading Spinner Styles */
+.loading-spinner {
+  position: fixed;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  } */
+  /* .alert {
+
+    display: none;
+    padding: 10px;
+    border: 1px solid #f00;
+    background-color: #fee;
+    color: #f00;
+    font-weight: bold;
+    margin-top: 10px;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .red-book{
+    
+  } */
+
+
+
+  .copied-text {
+  display: none;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  top: 3%;
+  left: 46%;
+  height: auto;
+  width: 12%;
+  text-align: center;
+  box-shadow: 1px 2px 6px 1px #ff8585;
+  border-radius: 5px;
+  animation: fadeOut 2s ease-in-out;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+ 
+  
+  
+#loadingIndicator {
+  color: gray;
+  font-style: italic;
+}
+  
+  
+  
