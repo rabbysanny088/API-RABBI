@@ -82,15 +82,14 @@ filterInput.addEventListener("keyup", (x) => {
 function onEdit(td) {
   submitBtn.innerText = "Update";
   selecteRow = td.parentElement.parentElement;
-  document.getElementById("userId").value = selecteRow.cells[0].innerHTML;
-  document.getElementById("id").value = selecteRow.cells[1].innerHTML;
-  document.getElementById("title").value = selecteRow.cells[2].innerHTML;
-  document.getElementById("body").value = selecteRow.cells[3].innerHTML;
+  document.querySelector('#id').value = selecteRow.cells[0].innerHTML;
+  document.querySelector('#name').value = selecteRow.cells[1].innerHTML;
+  document.querySelector('#userName').value = selecteRow.cells[2].innerHTML;
+  document.querySelector('#email').value = selecteRow.cells[3].innerHTML;
 }
 
 createBtn.addEventListener("click", () => {
   submitBtn.innerText = "Create";
-
   document.getElementById("userId").value = "";
   document.getElementById("id").value = "";
   document.getElementById("title").value = "";

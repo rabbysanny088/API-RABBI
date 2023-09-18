@@ -63,15 +63,12 @@
   } */
 
 .DataLoading {
-  /* position: absolute; */
-  /* z-index: 23; */
-  /* top: 192px; */
+
 }
 
 .loading-overlay {
 }
 
-/* Loading Spinner Styles */
 .loading-spinner {
   position: fixed;
   position: absolute;
